@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Praktikum Menu</string>
+
+    <array name="test">
+        <item>Pertama</item>
+        <item>Kedua</item>
+        <item>Ketiga</item>
+        <item>Empat</item>
+        <item>Lima</item>
+    </array>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.Medium"
+        android:text="Widget Color"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rd_hijau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hijau"/>
+
+        <RadioButton
+            android:id="@+id/rd_kuning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kuning"/>
+
+        <RadioButton
+            android:id="@+id/rd_merah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merah"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIMPAN"/>
+
+</LinearLayout>
